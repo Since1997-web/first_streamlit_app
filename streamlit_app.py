@@ -71,5 +71,5 @@ if streamlit.button("Add a Fruit to the list"):
   streamlit.text(back_from_function)
   #streamlit.write('Thanks for adding ', add_my_fruit)
 #control flow errror
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+  my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
