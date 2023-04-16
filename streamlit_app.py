@@ -52,7 +52,6 @@ def insert_row_snowflake(new_fruit):
     my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
     return "Thanks for adding "+ new_fruit
   
-my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 # my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 def get_fruit_load_list():
